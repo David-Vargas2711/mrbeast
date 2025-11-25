@@ -72,7 +72,7 @@ body{
 
 .reachleft{
     width: 49%;
-    border-right: 1px solid black;
+    border-right: 3px solid black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -154,22 +154,6 @@ body{
 }
 
 .letreros{
-    width: 10%;
-    height: 30px;
-    
-}
-.girl{
-    height: 600px;
-}
-.estrellita{
-    width: 3%;
-}
-
-.reachright{
-    margin-left: 7%;
-}
-
-.letreros{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +169,6 @@ body{
 #fondo{
     background-color: #FFDE9F;
     width: 100%;
-    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,5 +190,76 @@ body{
 }
 
 .teta{
-    margin: 0;
+    margin: 8px;
+}
+
+.foot{
+    width: 80%;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 32px 32px 0 0;
+}
+
+.topfoot{
+    display:flex;
+}
+
+.support{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    height: 300px;
+}
+
+.design{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    height: 300px;
+    border-radius: 25px 0 0 0;
+
+} 
+
+.design2{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    height: 300px;
+    border-radius: 0 25px 0 0;
+}
+
+.servicesfot, .brading, .touch{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    height: 220px;
+}
+
+.nav{
+    height: 60px;
+}
+
+.bottomfoot{
+    display: flex;
+}
+
+.ff{
+    margin: 7.1px;
+}
+
+.lorem{
+    margin-top: 0;
+    margin-bottom: 38px;
 }
