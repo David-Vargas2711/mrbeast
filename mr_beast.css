@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+
+.superior{
+    height: 90px;
+    background-color: #1F1F1F;
+    display: flex;
+}
+
+.reachel{
+    width: 46%;
+    display: flex;
+    align-items: center;
+}
+
+.star{
+    height: 60px;
+    margin-left: 130px;
+}
+
+.textreachel{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.home, .about, .services{
+    color: white;
+    border-right: 1px solid white;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.projects{
+    color: white;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.contactme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16%;
+    background-color: #FFDE9F;
+    height: 98%;
+}
+
+.textcontact{
+    font-family: sans-serif;
+}
+
+.flecha{
+    height: 20px;
+}
+
+.contreachel{
+    display: flex;
+    width: 100%;
+}
+
+.reachleft{
+    width: 49%;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 700px;
+    font-family: sans-serif;
+}
+
+.contleft{
+    width: 60%;
+    margin-right: 20px;
+}
+
+.welcomstar{
+    display: flex;
+    align-items: center;
+}
+
+.welcome{
+    margin: 0;
+}
+
+.starblack{
+    height: 30px;
+}
+
+.green{
+    font-size: 45px;
+}
+
+.buttonmsg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactme2{
+    width: 38%;
+    background-color: #1F1F1F;
+    border-radius: 30PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.sendmsg{
+    width: 56%;
+    background-color: #ffffff;
+    border-radius: 30PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1F1F1F;
+    border: 3px solid black;
+}
